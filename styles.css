@@ -1,0 +1,65 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    margin: 0;
+    background-color: #fffdcf;
+}
+
+header {
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+}
+
+#addnewtodo_dialog {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 7px crimson solid;
+    border-radius: 10px;
+    border-bottom-style: none;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todo-box{
+    background-color: rgb(127, 70, 212);
+    padding: 20px;
+    margin-top: 5px;
+    color: white;
+    position: relative;
+}
